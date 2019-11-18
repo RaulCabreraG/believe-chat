@@ -30,11 +30,6 @@ class Home extends React.Component{
 			chatRef.push(chat);
 			this.setState({message: ''});
 		}
-		
-		/*const chatRef = firebase.database().ref('general');
-		console.log(chatRef);
-		alert(chatRef);*/
-		//https://chat-database-64d93.firebaseio.com/messages
 	}
 
 	render(){
